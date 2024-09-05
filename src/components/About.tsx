@@ -3,9 +3,9 @@ import React from 'react';
 import config from '../config/index.json';
 
 const About = () => {
-  const { company, about } = config;
+  const { company } = config;
   const { logo, name: companyName } = company;
-  const { socialMedia, sections } = about;
+  // const { socialMedia, sections } = about;
 
   return (
     <div
@@ -16,7 +16,7 @@ const About = () => {
         <div>
           <img src={logo} alt={companyName} className="w-16 h-16" />
         </div>
-        <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
+        {/* <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
           {sections.map((section, index) => (
             <a
               key={`${section.name}-${index}`}
@@ -26,8 +26,8 @@ const About = () => {
               {section.name}
             </a>
           ))}
-        </div>
-        <div className="flex items-center gap-x-8 mt-6 h-8">
+        </div> */}
+        {/* <div className="flex items-center gap-x-8 mt-6 h-8">
           <a
             aria-label="github"
             href={socialMedia.github}
@@ -84,7 +84,7 @@ const About = () => {
               Issaaf Kattan
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -4,18 +4,18 @@
 
 
 :root {
-  --color-primary: #ec4755;
-  --color-secondary: #a12c34;
+  --color-primary: #1A5377;
+  --color-secondary: #EFB15F;
   --color-tertiaty: #99a0a3;
 }
 
-a { 
-  @apply text-red-700;
-}
+ a {
+   @apply text-red-700;
+ }
 
-a:hover {
-  @apply border-b-2 border-red-700;
-}
+ a:hover {
+   @apply bg-[#EFB15F] text-white;
+ }
 
 
 

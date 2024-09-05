@@ -1,7 +1,7 @@
 {
   "company": {
-    "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "name": "Tekeleza",
+    "logo": "/assets/images/waterlogo.png"
   },
   "navigation": [
     {
@@ -11,26 +11,14 @@
     {
       "name": "Features",
       "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
-    },
-    {
-      "name": "About",
-      "href": "about"
     }
   ],
-  "callToAction": {
-    "text": "Get started",
-    "href": "#"
-  },
+
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "Tekeleza",
+    "subtitle": "Monitoring Water, Sustaining Life 💧",
+    "description": "Tekeleza is a smart water monitoring app that empowers communities with real-time insights into water flow, water quality, and distribution, ensuring efficient management of water resources and a sustainable future.",
+    "img": "/assets/images/tap.jpg",
     "primaryAction": {
       "text": "Get started",
       "href": "#"
@@ -41,46 +29,25 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Smart Water Management System",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "For Water Authorities: Optimize Water Management and Efficiency",
+        "description": "Tekeleza empowers water authorities with real-time monitoring tools to quickly identify and address leaks, inefficiencies, and contaminants, enhancing predictive maintenance and ensuring water quality. The app improves operational efficiency and reliability in water supply through advanced sensors, machine learning, and comprehensive reporting.",
+        "img": "/assets/images/waterauth.jpg"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "For Households: Empowering Consumers with Water Insights",
+        "description": "Tekeleza provides households with valuable insights into their water usage, sends alerts about potential shortages in their area, and helps them locate nearby alternative water sources, ensuring they stay informed and prepared.",
+        "img": "/assets/images/household.jpg"
       }
     ]
   },
   "features": {
+    "sc1": "/assets/images/sc1.png",
     "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "items": [
-      {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
-      },
-      {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
-      },
-      {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
-      },
-      {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
-      }
-    ]
+    "subtitle": "Technology for Social Good",
+    "description": "Tekeleza leverages the power of the Internet of Things such as sensors which are installed within the water distribution pipeline for real-time water resource monitoring, of metrics such as flow rate and water quality, thus enabling prompt responses and actions by water managers and authorities."
   },
   "pricing": {
     "title": "Pricing",
